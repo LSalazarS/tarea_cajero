@@ -26,5 +26,6 @@ def cajero(saldo):
         if(monto<=saldo):
             saldo -= monto
             print(f"Tu retiro fue exitoso\ny su saldo restante es de {saldo}\n gracias por usar nuestro servicio")
-
+    else:
+        print("Hubo un error al ingresar tus datos personales")
 cajero(saldo)
